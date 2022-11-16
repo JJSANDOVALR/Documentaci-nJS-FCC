@@ -1,0 +1,66 @@
+/*Estio de letra en todos los párrafos menos los code*/
+body{
+    font-family: arial;
+}
+
+/*Dividir la pantalla en 2 y posicionar bloques*/
+
+/*ESTILO EN LA BARRA DE NAVEGACIÓ*/
+/*Estilo de viñetas y links*/
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+#navbar{
+    font-size: 20px;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+#navbar::-webkit-scrolbar{
+    width: 8px;
+    height:fit-content;
+}
+#navbar::-webkit-scrollbar-thumb{
+    background: gray;
+}
+/*ENCABEZADOS*/
+/*encabezado de links de navegación*/
+body #navbar header{
+    padding-left: 20px;
+    font-size: 33px;
+    font-weight: bold;
+    background-color: yellow;
+    margin-bottom: 30px;
+}
+body #main-doc #introduccion{
+    margin-top: 10px;
+}
+/*Encabezados de cada sección*/
+#main-doc header{
+    font-size: 30px;
+    margin-left: 3%;
+}
+/*estilo al Texto de los párrafos*/
+body #main-doc .main-section article{
+    margin-left: 4%;
+    color: hsl(0, 0%, 24%);
+    font-family: arial;
+}
